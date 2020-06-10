@@ -9,13 +9,13 @@ const firebase = require('firebase');
 require('firebase/firestore');
 
   firebase.initializeApp({
-    apiKey: "AIzaSyAclpV5OWv1HoSEmgUnMfFp8bRpMyflCRc",
+    apiKey: "Your_api_key",
     authDomain: "evernote-9be4f.firebaseapp.com",
-    databaseURL: "https://evernote-9be4f.firebaseio.com",
+    databaseURL: "Your_databse",
     projectId: "evernote-9be4f",
     storageBucket: "evernote-9be4f.appspot.com",
-    messagingSenderId: "374307296458",
-    appId: "1:374307296458:web:f4bd934509f1957d095033"
+    messagingSenderId: "Msg_sender_id",
+    appId: "1:Your_ipp_id"
   });
 
 
